@@ -1,0 +1,801 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    min-width: 320px;
+}
+
+header {
+    height: 50rem;
+    position: relative;
+    background-color: #8f8f8f;
+}
+
+.logo {
+    background: url('../images/logo.png') no-repeat;
+    color: #cacaca;
+    float: left;
+    font: bold 20px georgia;
+    display: block;
+    text-transform: uppercase;
+    padding-left: 3.5rem;
+    padding-top: 1rem;
+}
+
+.navigation a {
+    color: #000;
+}
+
+.menu {
+    position: relative;
+    height: 3.2rem;
+    width: 3.6rem;
+    border-radius: 0.3rem;
+    background: #cacaca;
+    display: block;
+    float: right;
+}
+
+.menu:before, .menu:after {
+    position: absolute;
+    content: '';
+    top: 1rem;
+    height: 0.2rem;
+    background: #fff;
+    left: 0.4rem;
+    right: 0.4rem;
+}
+
+.menu:after {
+    top: auto;
+    bottom: 1rem
+}
+
+.navigation ul {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navigation ul li {
+    font: italic 14px/24px georgia;
+    width: 100%;
+}
+
+.navigation ul li a {
+    background: #cacaca;
+    border: .2em solid #646464;
+    color: white;
+    display: block;
+    padding: .625em 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation ul li:first-child {
+    border-top: none;
+    width: 100%;
+}
+
+.navigation:hover ul {
+    display: inline-block;
+}
+
+.clear {
+    padding: 3rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.clear:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.caption {
+    text-align: center;
+    clear: left;
+    padding-top: 10rem;
+    font: bold 4rem Lato;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.caption h1 {
+    display: inline-block;
+    padding: 10px 25px 10px 25px;
+    background-color: #646464;
+}
+
+.caption:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.caption h2 {
+    font: normal 2rem Lato;
+    background-color: #646464;
+    margin: 1rem 0 2rem;
+    padding: 10px 25px 10px 25px;
+    display: inline-block;
+    color: #fff
+}
+
+.social {
+    text-align: center;
+}
+
+.social li {
+    display: inline-block;
+    background-color: #646464;
+    width: 5rem;
+    height: 5rem;
+}
+
+.sprite {
+    background-image: url(../images/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-dribble {
+    width: 50px;
+    height: 50px;
+    background-position: -8px -10px;
+}
+
+.sprite-instagram {
+    width: 50px;
+    height: 50px;
+    background-position: -72px -10px;
+}
+
+.sprite-mail {
+    width: 50px;
+    height: 50px;
+    background-position: -140px -10px;
+}
+
+.sprite-twitter {
+    width: 50px;
+    height: 50px;
+    background-position: -205px -10px;
+}
+
+.information {
+    position: relative;
+    text-align: center;
+}
+
+.lineblock {
+    text-align: justify;
+    background-color: #1abc9c;
+    height: 5rem;
+    padding: 0 3rem;
+    text-transform: uppercase;
+    color: #fff;
+    font: bold 2rem Lato;
+    margin-bottom: 4rem;
+    display: block;
+    line-height: 5rem;
+}
+
+.lineblock:after {
+    width: 1rem;
+    height: 1rem;
+    background-color: #1abc9c;
+    margin-left: 5rem;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 45px;
+    display: block;
+    content: "";
+}
+
+.circle {
+    border-radius: 50%;
+    height: 25rem;
+    width: 25rem;
+    margin: 2rem auto;
+}
+
+h2 {
+    font: lighter 2rem Lato;
+    padding: 0 3rem;
+    text-align: justify;
+    color: #b2b3b3;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+}
+
+.information p {
+    font: lighter 1.4rem Lato;
+    padding: 0 3rem;
+    text-align: justify;
+    color: #656565;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.one h2, .two h2, .three h2 {
+    font: bold 2rem Lato;
+    text-align: center;
+    color: #000;
+    margin-bottom: 2rem;
+}
+
+.button {
+    display: inline-block;
+    font: normal 1.2rem/4rem georgia;
+    background-color: #3f8dbf;
+    padding: 0 3rem 0 1.5rem;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-bottom: 7rem;
+    box-shadow: inset 0px -4px 3px rgba(54, 120, 163, 1);
+}
+
+.button:before {
+    width: 24px;
+    height: 22px;
+    background: url(../images/button.png) no-repeat;
+    content: " ";
+    left: 100px;
+    float: left;
+    margin: 1rem 0.6rem 0 1rem;
+    padding-right: 1rem;
+}
+
+article:after {
+    display: block;
+    content: " ";
+    clear: both;
+}
+
+.portfolio {
+    position: relative;
+    background-color: #333;
+}
+
+.portfolio h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font: lighter 1.6rem Lato;
+}
+
+.portfolio p {
+    color: #bbb;;
+    padding: 0 3rem;
+    font: lighter 1.4rem Lato;
+    margin-bottom: 2rem;
+    line-height: 2.5rem;
+}
+
+.blog {
+    position: relative;
+    background-color: #f0f0f0;
+    padding-bottom: 3rem;
+}
+
+.postOne, .postTwo, .postThree, .postFor {
+    margin: 0 3rem;
+    background-color: white;
+    margin-bottom: 2rem;
+}
+
+.description {
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+.text {
+    height: 3rem;
+    display: block;
+    line-height: 3rem;
+    margin-left: 1rem;
+    text-transform: uppercase;
+    color: #d4d4d4;
+}
+
+.like {
+    float: right;
+    position: absolute;
+    height: 1.2rem;
+    width: 2rem;
+    top: 0.8rem;
+    color: #cacaca;
+    padding-right: 10px;
+    right: 1rem;
+    background: url(../images/like.png) no-repeat;
+    background-position: right 5px center;
+}
+
+.imageText {
+    padding: 2rem 1rem 3rem 1rem;
+    color: #959595;
+}
+
+.imageText h3 {
+    color: #5c5c5c;
+    text-transform: uppercase;
+    font: bold 1.4rem Lato;
+    margin-bottom: 1rem;
+}
+
+.imageText p {
+    font: normal 1.2rem Lato;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+.imageSeven, .imageEight, .imageNine, .imageTen {
+    width: 100%;
+}
+
+.blog:after {
+    display: block;
+    content: " ";
+    clear: both;
+}
+
+.contact {
+    position: relative;
+    background: url(../images/background.png) center/cover no-repeat;
+    padding-bottom: 5rem;
+}
+
+.form {
+    padding: 0 3rem 0 3rem;
+}
+
+input[type="text"], input[type="email"] {
+    height: 4rem;
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    font: normal 1.6rem Lato;
+    text-indent: 2rem;
+    border: none;
+    background: rgba(93, 95, 91, 0.5);
+    color: #a0a0a0;
+    text-transform: uppercase;
+}
+
+textarea {
+    height: 200px;
+    display: block;
+    width: 100%;
+    border: none;
+    background: rgba(93, 95, 91, 0.5);
+    color: #a0a0a0;
+    text-transform: uppercase;
+    font: normal 1.6rem/3.2rem Lato;
+    box-sizing: border-box;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    max-height: 300px;
+    max-width: 100%;
+    margin-bottom: 2rem;
+}
+
+.contact .button {
+    margin: 0 0 2rem 0;
+}
+
+.contactDetails h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font: lighter 1.6rem Lato;
+}
+
+.contactDetails p {
+    color: #b9bab9;
+    padding: 0 3rem 2rem 3rem;
+    font: lighter 1.4rem Lato;
+    line-height: 2rem;
+}
+
+.contacts {
+    padding-left: 3rem;
+}
+
+.contacts li {
+    margin-bottom: 1.5rem;
+}
+
+.street, .city, .phone {
+    display: inline-block;
+    font: 1.4rem Lato;
+    color: #b9bab9;
+    padding: 0 0 0 2rem;
+    text-align: center;
+}
+
+.street {
+    background: url(../images/fill.png) center left no-repeat;
+}
+
+.city {
+    background: url(../images/phone.png) center left no-repeat;
+}
+
+.phone {
+    background: url(../images/message.png) center left no-repeat;
+}
+
+footer {
+    text-align: center;
+}
+
+.copy {
+    display: inline-block;
+    font: lighter 1.2rem Lato;
+    color: #737373;
+    margin: 5rem 0 3rem 0;
+}
+
+.sprite2 {
+    background-image: url(../images/spritesheet2.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-dribble1 {
+    width: 40px;
+    height: 40px;
+    background-position: -15px -15px;
+}
+
+.sprite-instagram1 {
+    width: 40px;
+    height: 40px;
+    background-position: -80px -15px;
+}
+
+.sprite-mail1 {
+    width: 40px;
+    height: 40px;
+    background-position: -145px -15px;
+}
+
+.sprite-twitter1 {
+    width: 40px;
+    height: 40px;
+    background-position: -210px -15px;
+}
+
+.socialFooter {
+    text-align: center;
+    margin-left: 3rem;
+}
+
+.socialFooter li {
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    margin-right: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .information p {
+        margin-bottom: 4rem;
+    }
+
+    .two {
+        float: left;
+        width: calc(50% - 2rem);
+        margin-bottom: 2rem;
+    }
+
+    .three {
+        float: right;
+        width: calc(50% - 2rem);
+        margin-bottom: 2rem;
+    }
+
+    .postOne {
+        float: left;
+        width: calc(50% - 6rem);
+    }
+
+    .postThree {
+        float: left;
+        width: calc(50% - 6rem);
+    }
+
+    .postTwo {
+        float: right;
+        width: calc(50% - 6rem);
+    }
+
+    .postFor {
+        float: right;
+        width: calc(50% - 6rem);
+    }
+
+    .imageSeven, .imageEight, .imageNine, .imageTen {
+        height: 300px;
+    }
+
+    .text {
+        height: 4rem;
+        line-height: 4rem;
+    }
+
+    .like {
+        top: 1.5rem;
+    }
+
+    .imageText {
+        height: 200px;
+    }
+
+    .imageText h3 {
+        font: bold 1.8rem Lato;
+        margin-bottom: 3rem;
+    }
+
+    .imageText p {
+        font: normal 1.6rem Lato;
+    }
+}
+
+@media screen and (min-width: 1275px) {
+    .navigation {
+        display: table;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .navigation ul {
+        display: table-row;
+        position: absolute;
+        padding-right: 10rem;
+        right: 0;
+        top: auto;
+        left: auto;
+    }
+
+    .navigation ul li {
+        display: table-cell;
+        padding-left: 4rem;
+        font: normal 13px/24px Lato;
+        width: 0;
+    }
+
+    .navigation ul li:first-child {
+        display: table-cell;
+        width: 0;
+    }
+
+    .navigation ul li a {
+        display: block;
+        background: #fff;
+        border: none;
+        color: #c5c5c5;
+        text-align: right;
+        text-transform: uppercase;
+    }
+
+    .navigation ul li a:hover {
+        color: #1abb9c;
+    }
+
+    .navigation:hover ul {
+        display: table-row;
+    }
+
+    header {
+        height: 78.8rem;
+    }
+
+    .clear {
+        margin-bottom: 20rem;
+        padding: 3rem 10rem;
+    }
+
+    .caption {
+        padding-top: 0;
+        font: bold 8rem Lato;
+    }
+
+    .caption h1 {
+        padding: 3rem 1rem 3rem 2rem;
+    }
+
+    .caption h2 {
+        padding: 2rem;
+        font: lighter 5rem Lato;
+    }
+
+    .lineblock {
+        height: 9rem;
+        padding: 0 10rem;
+        font: bold 2.5rem Lato;
+        line-height: 9rem;
+        margin-bottom: 8rem;
+    }
+
+    .lineblock:after {
+        top: 85px
+    }
+
+    .circle {
+        float: left;
+        margin: 0 5rem 5rem 10rem
+    }
+
+    .information:after {
+        display: block;
+        content: " ";
+        clear: both;
+    }
+
+    .main {
+        padding-right: 10rem;
+        font: lighter 2.2rem Lato;
+        padding-top: 1rem;
+    }
+
+    .main p {
+        font: lighter 1.5rem/3rem Lato;
+    }
+
+    .one {
+        float: left;
+        width: calc(33% - 8rem);
+        padding: 0 2rem 2rem 10rem
+    }
+
+    .two {
+        float: left;
+        width: calc(33% - 8rem);
+    }
+
+    .three {
+        width: calc(33% - 8rem);
+        padding: 0 10rem 2rem 2rem
+    }
+
+    .article:after {
+        display: block;
+        content: " ";
+        clear: both;
+    }
+
+    .one h2, .two h2, .three h2 {
+        text-align: justify;
+    }
+
+    .portfolio h2 {
+        padding: 0 10rem;
+    }
+
+    .portfolio p {
+        padding: 0 10rem;
+    }
+
+    .postOne, .postThree {
+        margin: 0 4rem 2rem 10rem;
+        width: calc(50% - 14rem);
+    }
+
+    .postTwo, .postFor {
+        margin: 0 10rem 2rem 4rem;
+        width: calc(50% - 14rem);
+    }
+
+    .form {
+        padding: 0 5rem 0 10rem;
+        width: 50%;
+        float: left;
+    }
+
+    .contact .button {
+        margin: 0 0 2rem 0rem;
+    }
+
+    .contactDetails {
+        padding: 0 10rem 0 10rem;
+    }
+
+    .contactDetails h2 {
+        padding: 0;
+    }
+
+    .contactDetails p {
+        padding: 0 0 2rem 0;
+    }
+
+    .form:after {
+        display: block;
+        content: " ";
+        clear: both;
+    }
+
+    .contactDetails:after {
+        display: block;
+        content: " ";
+        clear: both;
+    }
+
+    .copy {
+        font-size: 2.2rem;
+    }
+}
+
+@media screen and (min-width: 1595px) {
+    .navigation ul {
+        padding-right: 22rem;
+    }
+
+    .clear {
+        padding: 3rem 22rem;
+    }
+
+    .lineblock {
+        padding: 0 0 0 22rem;
+    }
+
+    .circle {
+        margin: 0 5rem 5rem 22rem;
+    }
+
+    .main {
+        padding: 3rem 22rem 0 0;
+    }
+
+    .one {
+        width: calc(33% - 16rem);
+        padding: 0 2rem 2rem 22rem;
+    }
+
+    .two {
+        width: calc(33% - 16rem);
+    }
+
+    .three {
+        width: calc(33% - 16rem);
+        padding: 0 22rem 2rem 2rem;
+    }
+
+    .portfolio h2 {
+        padding: 0 22rem;
+    }
+
+    .portfolio p {
+        padding: 0 22rem;
+    }
+
+    .postOne, .postThree {
+        margin: 0 4rem 2rem 22rem;
+        width: calc(50% - 26rem);
+    }
+
+    .postTwo, .postFor {
+        margin: 0 22rem 2rem 4rem;
+        width: calc(50% - 26rem);
+    }
+
+    .form {
+        padding: 0 4rem 0 22rem;
+    }
+
+    .contactDetails {
+        padding: 0 22rem 0 0;
+    }
+}
