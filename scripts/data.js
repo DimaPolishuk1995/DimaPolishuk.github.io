@@ -29,7 +29,7 @@ var data = [
     {
         id: 4,
         title: "News Rss Parser Angular App",
-        description: "This application takes the rss feed of one of the largest news portals, and provides the user to view this news.",
+        description: "This application takes the rss feed of one of the largest news portals, and provides the user to view this news. (Please install the CORS plugin before watching)",
         linkToDemo: "http://DimaPolishuk1995.github.io/works/Rss_parser_angular_app/",
         linkToCode: "http://github.com/DimaPolishuk1995/rssParser",
         image: "images/works-images/rss_app_angular.jpg",
