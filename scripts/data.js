@@ -31,7 +31,7 @@ var data = [
         title: "News Rss Parser Angular App (Please install the CORS plugin before watching)",
         description: "This application takes the rss feed of one of the largest news portals, and provides the user to view this news.",
         linkToDemo: "http://DimaPolishuk1995.github.io/works/Rss_parser_angular_app/",
-        linkToCode: "http://github.com/DimaPolishuk1995/rssParser",
+        linkToCode: "http://github.com/DimaPolishuk1995/rssParser/Angular.js_rss_parser",
         image: "images/works-images/rss_app_angular.jpg",
         tags: ["HTML", "CSS", "JAVASCRIPT", "ANGULAR", "GULP"]
     },
@@ -61,5 +61,14 @@ var data = [
         linkToCode: "https://github.com/DimaPolishuk1995/PropertyCross",
         image: "images/works-images/property_cross.jpg",
         tags: ["HTML", "CSS","JAVASCRIPT","ANGULAR", "ANGULAR MATERIAL"]
+    },
+    {
+        id: 8,
+        title: "News Rss Parser Vue.js App (Please install the CORS plugin before watching)",
+        description: "This application takes the rss feed of one of the largest news portals, and provides the user to view this news.",
+        linkToDemo: "http://DimaPolishuk1995.github.io/works/Rss_parser_vueJs_app/",
+        linkToCode: "http://github.com/DimaPolishuk1995/rssParser/Vue.js_rss_parser",
+        image: "images/works-images/rss_app_angular.jpg",
+        tags: ["HTML", "CSS","JAVASCRIPT","VUE.JS", "WEBPACK"]
     }
 ];
