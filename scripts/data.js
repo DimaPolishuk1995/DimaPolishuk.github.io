@@ -57,7 +57,7 @@ var data = [
         id: 7,
         title: "Property Cross",
         description: "Property Cross.",
-        linkToDemo: "http://DimaPolishuk1995.github.io/works/Property_Cross/",
+        linkToDemo: "http://test.sliceart.com.ua/Polishchuk-propertyCross/",
         linkToCode: "https://github.com/DimaPolishuk1995/PropertyCross",
         image: "images/works-images/property_cross.jpg",
         tags: ["HTML", "CSS","JAVASCRIPT","ANGULAR", "ANGULAR MATERIAL"]
